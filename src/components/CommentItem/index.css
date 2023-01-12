@@ -1,0 +1,82 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.initial {
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 40px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  margin-right: 8px;
+}
+.name {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 500;
+}
+.comment {
+  color: #64748b;
+  font-size: 12px;
+}
+.status-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.like-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.liked {
+  color: #0ea5e9;
+  margin-left: 10px;
+  background-color: transparent;
+  font-size: 12px;
+}
+.unliked {
+  color: #64748b;
+  margin-left: 10px;
+  background-color: transparent;
+  font-size: 12px;
+}
+.delete {
+  background-color: transparent;
+}
